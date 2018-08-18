@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width,intial-scale=1.0">
   <style>
     #container {
       margin-left: 50px;
@@ -75,7 +76,7 @@
         if (pos1 == 350) {
           clearInterval(id1);
         } else { 
-          pos1=pos1+1;
+          pos1++;
           elem1.style.top = pos1 + 'px'; 
           elem1.style.right = pos1 + 'px'; 
         }
@@ -85,7 +86,7 @@
         if (pos2 == 300) {
           clearInterval(id2);
         } else { 
-          pos2=pos2+1;
+          pos2++;
           elem2.style.paddingTop = pos2 + 'px';
         }
       }
